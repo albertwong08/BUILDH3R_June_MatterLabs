@@ -8,9 +8,13 @@ The workshop consists of 2 parts:
 
 I learnt smart contract development over ethereum before. Thus the first session is still manageable for me.
 
-As suggested by the quickguide, I used Remix for the development
+As suggested by the quickguide (https://docs.zksync.io/build/quick-start) , I used Remix for the development
 
 ![image](https://github.com/albertwong08/BUILDH3R_June_MatterLabs/assets/80051495/804f03cf-7df9-4886-80a6-9f0da9d46546)
+
+One major difference when developing zkSync smart contract is about the zksync Plugin in the Plug-in manager.
+<img width="466" alt="image" src="https://github.com/albertwong08/BUILDH3R_June_MatterLabs/assets/80051495/33932ddc-3745-4a2e-bc19-a8bb455b8ad1">
+
 
 The smartcontract is a simple one: it stores the message as a string array. This message array is stored on chain. Thus the sendMessage function which add message to the array will trigger a transaction which charge gass fee
 ps: to make the variable not stored on chain, use memory keyword when declare a variable.
